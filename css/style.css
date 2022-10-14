@@ -165,6 +165,9 @@ font-style: normal;
 .clients{
     background: #403E3B;
 }
+.clients div .clients_second_div{
+    padding: 65px 0;
+}
 .clients_first_div{
     margin: auto;
     padding: 60px;
@@ -213,11 +216,23 @@ font-style: normal;
     display: flex;
     justify-content: space-between;
 }
+.clients_first_div .clients_third_div{
+    padding-right: 144px;
+}
+
 .clients_first_div div:nth-child(2) div:nth-child(1) img:nth-child(1){
     padding: 64px 96px 128px 40px;
 }
 .clients_first_div div:nth-child(2) div:nth-child(1) img:nth-child(2){
-    padding: 40px 40px 0 0;
+    border-radius: 0;
+    margin: 0;
+    padding: 40px 40px 96px 0;
+}
+.clients_first_div div:nth-child(2) div:nth-child(2) img:nth-child(1){
+    padding-left: 40px;
+}
+.clients_first_div div:nth-child(2) div:nth-child(2) img:nth-child(2){
+    padding-right: 40px;
 }
 /*section_3*/
 
@@ -285,7 +300,7 @@ font-style: normal;
 
 }
 .team_art:nth-child(2){
-    padding: 52px 0;
+    padding: 52px 136px 52px 0;
 }
 
 
@@ -335,6 +350,7 @@ font-style: normal;
     color: #1B1A1A;
     text-decoration: none;
 }
+
 /*section_5*/
 
 /*footer*/
