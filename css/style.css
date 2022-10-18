@@ -102,8 +102,66 @@ font-style: normal;
     background-size: cover;
 }
 /*section_1*/
+/*section_2*/
+
+.Our_firm{
+    background: #E5E5E5;
+}
+.Our_firm_first{
+    max-width: 768px;
+    margin: auto;
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.Our_firm_first h5{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #403E3B;
+}
+.Our_firm_first .Our_firm_second p{
+    max-width: 493px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #403E3B;
+}
+.Our_firm_first .Our_firm_second p:nth-child(2){
+    padding: 10px 0;
+}
+.Senior{
+    padding-top: 18px;
+    display: flex;
+    align-items: center;
+}
+.Senior h6{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #1B1A1A;
+}
+.Senior p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #645C55;
+}
+
 
 /*section_2*/
+
+/*section_3*/
 
 .sect_art{
     padding: 100px 0;
@@ -158,8 +216,8 @@ font-style: normal;
     font-size: 17px;
     line-height: 26px;
 }
-/*section_2*/
 /*section_3*/
+/*section_4*/
 .reeding_house{
     min-height: 600px;
     background-image: url("../images/images23.jpg");
@@ -190,8 +248,8 @@ font-style: normal;
     line-height: 24px;
     color: #645C55;
 }
-/*section_3*/
 /*section_4*/
+/*section_5*/
 
 .clients{
     background: #403E3B;
@@ -265,8 +323,8 @@ font-style: normal;
 .clients_first_div div:nth-child(2) div:nth-child(2) img:nth-child(2){
     padding-right: 40px;
 }
-/*section_4*/
 /*section_5*/
+/*section_6*/
 .reeding_house_second{
     min-height: 600px;
     background-image: url("../images/images24.jpg");
@@ -298,8 +356,8 @@ font-style: normal;
     color: #645C55;
 }
 
-/*section_5*/
 /*section_6*/
+/*section_7*/
 .team {
     background: #E5E5E5;
 }
@@ -366,9 +424,9 @@ font-style: normal;
 }
 
 
-/*section_6*/
-
 /*section_7*/
+
+/*section_8*/
 .reeding_house_third{
     min-height: 600px;
     background-image: url("../images/images25.jpg");
@@ -400,8 +458,8 @@ font-style: normal;
     color: #645C55;
 }
 
-/*section_7*/
 /*section_8*/
+/*section_9*/
 .sect_touch {
     background: #CEC4BC;
     border-radius: 0;
@@ -445,7 +503,7 @@ font-style: normal;
     text-decoration: none;
 }
 
-/*section_8*/
+/*section_9*/
 
 /*footer*/
 footer {
