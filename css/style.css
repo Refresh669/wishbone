@@ -308,21 +308,6 @@ font-style: normal;
 .clients_first_div .clients_third_div{
     padding-right: 144px;
 }
-
-.clients_first_div div:nth-child(2) div:nth-child(1) img:nth-child(1){
-    padding: 64px 96px 128px 40px;
-}
-.clients_first_div div:nth-child(2) div:nth-child(1) img:nth-child(2){
-    border-radius: 0;
-    margin: 0;
-    padding: 40px 40px 96px 0;
-}
-.clients_first_div div:nth-child(2) div:nth-child(2) img:nth-child(1){
-    padding-left: 40px;
-}
-.clients_first_div div:nth-child(2) div:nth-child(2) img:nth-child(2){
-    padding-right: 40px;
-}
 /*section_5*/
 /*section_6*/
 .reeding_house_second{
@@ -354,6 +339,18 @@ font-style: normal;
     font-size: 16px;
     line-height: 24px;
     color: #645C55;
+}
+.clients_third_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.clients_third_div a:nth-child(1){
+    margin-right: 96px;
+}
+.clients_third_div a:nth-child(3){
+    margin-right: 96px;
 }
 
 /*section_6*/
