@@ -159,8 +159,39 @@ font-style: normal;
     line-height: 26px;
 }
 /*section_2*/
-
 /*section_3*/
+.reeding_house{
+    min-height: 600px;
+    background-image: url("../images/images23.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 75px;
+}
+.description{
+    max-width: 285px;
+}
+.reeding_house .description h5{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+.reeding_house .description p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #645C55;
+}
+/*section_3*/
+/*section_4*/
 
 .clients{
     background: #403E3B;
@@ -234,10 +265,41 @@ font-style: normal;
 .clients_first_div div:nth-child(2) div:nth-child(2) img:nth-child(2){
     padding-right: 40px;
 }
-/*section_3*/
-
 /*section_4*/
+/*section_5*/
+.reeding_house_second{
+    min-height: 600px;
+    background-image: url("../images/images24.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 75px;
+}
+.description_second{
+    max-width: 285px;
+}
+.reeding_house_second .description_second h5{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+.reeding_house_second .description_second p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #645C55;
+}
 
+/*section_5*/
+/*section_6*/
 .team {
     background: #E5E5E5;
 }
@@ -304,10 +366,42 @@ font-style: normal;
 }
 
 
-/*section_4*/
+/*section_6*/
 
-/*section_5*/
+/*section_7*/
+.reeding_house_third{
+    min-height: 600px;
+    background-image: url("../images/images25.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 60px;
+}
+.description_third{
+    max-width: 285px;
+}
+.reeding_house_third .description_third h5{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+.reeding_house_third .description_third p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #645C55;
+}
 
+/*section_7*/
+/*section_8*/
 .sect_touch {
     background: #CEC4BC;
     border-radius: 0;
@@ -351,7 +445,7 @@ font-style: normal;
     text-decoration: none;
 }
 
-/*section_5*/
+/*section_8*/
 
 /*footer*/
 footer {
