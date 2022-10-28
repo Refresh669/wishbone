@@ -2,6 +2,11 @@
     padding: 0;
     margin: 0;
 }
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /*header*/
 .headdiv{
     max-width: 1200px;
@@ -306,7 +311,7 @@ font-style: normal;
     justify-content: space-between;
 }
 .clients_first_div .clients_third_div{
-    padding-right: 144px;
+    margin-right: 144px;
 }
 /*section_5*/
 /*section_6*/
@@ -457,6 +462,93 @@ font-style: normal;
 
 /*section_8*/
 /*section_9*/
+.projects {
+    padding: 113px 0 111px;
+    background: #F7F7F7;
+}
+.container{
+    max-width: 1168px;
+    margin: auto;
+}
+.projects h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 42px;
+    color: #1B1A1A;
+    margin-bottom: 15px;
+}
+.projects p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #645C55;
+    margin-bottom: 44px;
+}
+.projects article{
+    max-width: 375px;
+    position: relative;
+    overflow: hidden;
+}
+.projects article:hover .describe{
+    bottom: 0;
+
+}
+.projects article img{
+    width: 100%;
+}
+.projects .describe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    bottom: -100%;
+    transition: 1s;
+
+}
+.projects .describe h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    color: #403E3B;
+    width: 100%;
+}
+.projects .describe h4 span{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55;
+}
+
+.projects .describe a {
+    background: #1B1A1A;
+    border-radius: 14px;
+    padding: 11px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+/*section_9*/
+/*section_10*/
 .sect_touch {
     background: #CEC4BC;
     border-radius: 0;
