@@ -228,13 +228,31 @@ font-style: normal;
     font-size: 17px;
     line-height: 26px;
 }
-.owl-carousel .owl-item img{
+.sect_art .owl-carousel .owl-item img{
     display: inline-block;
 }
-.owl-carousel .owl-item{
+.sect_art .owl-carousel .owl-item{
     display: flex;
     justify-content: center;
 }
+.sect_art .owl-carousel .owl-dots button.owl-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+}
+.sect_art .owl-carousel .owl-dots button.owl-dot.active{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+}
+.owl-dots{
+    display: flex;
+    justify-content: space-evenly;
+}
+.owl-carousel .owl-item img{
+    margin: auto; }
 /*section_3*/
 /*section_4*/
 .reeding_house{
