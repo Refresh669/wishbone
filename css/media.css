@@ -57,12 +57,761 @@
     }
     }
     @media only screen and (max-width: 428px) {
+        header{
+            max-width: 405px;
+            margin: auto;
+        }
+        .headdiv{
+            padding: 14px 0;
+        }
+        header img{
+            max-width: 100px;
+        }
+        .headdiv nav ul li{
+            margin-left: 10px;
+        }
+        .headdiv nav ul li a{
+            font-size: 10px;
+        }
+        .headdiv nav ul li:nth-child(6) a{
+            font-size: 10px;
+            padding: 7px 14px;
+        }
+        .sect_img{
+            padding: 33.5px 0 32px 0;
+        }
+        .sect_img .img_first_div p{
+            margin-bottom: 20px;
+        }
+        .img_first_div{
+            max-width: 405px;
+            margin: auto;
+        }
+        .Our_firm_first{
+            padding: 25px 0;
+        }
+        .Our_firm_first h5{
+            font-size: 25px;
+            line-height: 24px;
+        }
+        .Our_firm_first .Our_firm_second p{
+            font-size: 14px;
+            line-height: 20px;
+            max-width: 250px;
+        }
+        .Senior img{
+            max-width: 70px;
+            padding-right: 15px;
+        }
+        .reeding_house{
+            min-height: 300px;
+            padding-right: 25px;
+        }
+        .description {
+            max-width: 150px;
+        }
+        .reeding_house .description h5{
+            font-size: 10px;
+            line-height: 15px;
+        }
+        .reeding_house .description p{
+            font-size: 11px;
+            line-height: 16px;
+        }
+        .sect_img .img_first_div h1{
+            font-size: 40px;
+            line-height: 40px;
+        }
+        .sect_art{
+            padding: 25px 0;
+        }
+        .sect_art .art_first_div h2{
+            font-size: 30px;
+            line-height: 33px;
+        }
+        .reeding_house_second{
+            min-height: 300px;
+            padding-right: 25px;
+        }
+        .reeding_house_second .description_second h5{
+            font-size: 10px;
+            line-height: 15px;
+        }
+        .reeding_house_second .description_second p {
+            font-size: 11px;
+            line-height: 16px;
+        }
+        .description_second{
+            max-width: 150px;
+        }
+        .Senior p{
+            font-size: 11px;
+            line-height: 11px;
+        }
+        .Senior h6{
+            font-size: 15px;
+            line-height: 20px;
+        }
+        .img_second_div {
+           display: none;
+
+        }
+        .Our_firm_first {
+            max-width: 405px;
+        }
+        .clients_first_div {
+            padding: 15px;
+        }
+        .clients .clients_first_div div:nth-child(1) {
+            max-width: 150px;
+        }
+        .clients .clients_first_div div h4{
+            font-size: 12px;
+            line-height: 16px;
+        }
+        .clients .clients_first_div div h2{
+            font-size: 25px;
+            line-height: 29px;
+            padding-bottom: 9px;
+        }
+        .clients .clients_first_div div p{
+            font-size: 11px;
+            line-height: 16px;
+        }
+        .clients_third_div a img{
+            max-width: 90px;
+        }
+        .clients_third_div a:nth-child(1){
+            margin-right: 30px;
+        }
+        .clients_third_div a:nth-child(3) {
+            margin-right: 30px;
+        }
+        .clients_third_div{
+            display: flex;
+            justify-content: end;
+        }
+
+        .clients_first_div .clients_third_div{
+            margin-right: 0;
+        }
+        .reeding_house_third{
+            min-height: 300px;
+            padding-left: 25px;
+        }
+        .reeding_house_third .description_third h5{
+            font-size: 10px;
+            line-height: 15px;
+        }
+        .reeding_house_third .description_third p{
+            font-size: 11px;
+            line-height: 16px;
+        }
+        .description_third{
+            max-width: 150px;
+        }
+        .projects{
+            padding: 25px 20px 25px;
+        }
+        .projects h3{
+            font-size: 25px;
+            line-height: 25px;
+        }
+        .projects p{
+            font-size: 18px;
+            line-height: 18px;
+            margin-bottom: 20px;
+        }
+        .d-flex.d-img{
+            display: block;
+            margin: auto;
+            max-width: 375px;
+        }
+        .link {
+            margin-top: 15px;
+        }
+        .team_second_div{
+            text-align: center;
+            max-width: none;
+        }
+        .team_first_div{
+            max-width: 405px;
+        }
+        .team_art:nth-child(2) {
+            padding-right: 0;
+        }
+        .team_art h5 {
+            padding-left: 7px;
+        }
+        .team_art p{
+            padding-left: 7px;
+        }
+        .team_art img{
+            max-width: 50px;
+        }
+        .team_first_div{
+            display: block;
+            padding: 25px 0;
+            margin: auto;
+        }
+        .team_art:nth-child(2){
+         padding-top: 20px;
+            padding-bottom: 0;
+        }
+        .team_lorem{
+            padding: 12px 0 20px 0;
+        }
+        .width{
+          margin: auto;
+        }
+        .team_art div{
+            min-width: 150px;
+        }
+        .team_art{
+        padding-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .touch_first_div{
+            max-width: 405px;
+        }
+        .sect_touch .touch_second_div p{
+        font-size: 25px;
+            line-height: 30px;
+            max-width: 200px;
+        }
+        .sect_touch .touch_second_div a{
+            font-size: 13px;
+            line-height: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .sect_touch .touch_first_div .touch_first_p{
+            font-size: 12px;
+            line-height: 16px;
+        }
+        footer .foot_first_div{
+            max-width: 405px;
+        }
+        footer .foot_first_div div:nth-child(2) ul{
+            padding-top: 75px;
+        }
+        footer .foot_first_div div:nth-child(2) ul li img{
+            height: 20px;
+        }
+        footer .foot_first_div div:nth-child(2) ul li:first-of-type{
+            margin-left: 0;
+        }
+
+    }
+
+@media only screen and (max-width: 391px) {
+    header{
+        max-width: 375px;
+        margin: auto;
+    }
+    .headdiv{
+        padding: 14px 0;
+    }
+    header img{
+        max-width: 100px;
+    }
+    .headdiv nav ul li{
+        margin-left: 7px;
+    }
+    .headdiv nav ul li a{
+        font-size: 7px;
+    }
+    .headdiv nav ul li:nth-child(6) a{
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+    .sect_img{
+        padding: 33.5px 0 32px 0;
+    }
+    .sect_img .img_first_div p{
+        margin-bottom: 20px;
+    }
+    .img_first_div{
+        max-width: 375px;
+        margin: auto;
+    }
+
+    .Our_firm_first{
+        max-width: 375px;
+        padding: 25px 0;
+    }
+    .Our_firm_first h5{
+        font-size: 25px;
+        line-height: 24px;
+    }
+    .Our_firm_first .Our_firm_second p{
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 250px;
+    }
+    .Senior img{
+        max-width: 70px;
+        padding-right: 15px;
+    }
+    .reeding_house{
+        min-height: 300px;
+        padding-right: 25px;
+    }
+    .description {
+        max-width: 150px;
+    }
+    .reeding_house .description h5{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .reeding_house .description p{
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .sect_img .img_first_div h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .sect_art{
+        padding: 25px 0;
+    }
+    .sect_art .art_first_div h2{
+        font-size: 30px;
+        line-height: 33px;
+    }
+    .reeding_house_second{
+        min-height: 300px;
+        padding-right: 25px;
+    }
+    .reeding_house_second .description_second h5{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .reeding_house_second .description_second p {
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .description_second{
+        max-width: 150px;
+    }
+    .Senior p{
+        font-size: 11px;
+        line-height: 11px;
+    }
+    .Senior h6{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .img_second_div {
+        display: none;
+
+    }
+    .clients_first_div {
+        padding: 15px;
+    }
+    .clients .clients_first_div div:nth-child(1) {
+        max-width: 150px;
+    }
+    .clients .clients_first_div div h4{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .clients .clients_first_div div h2{
+        font-size: 25px;
+        line-height: 29px;
+        padding-bottom: 9px;
+    }
+    .clients .clients_first_div div p{
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .clients_third_div a img{
+        max-width: 80px;
+    }
+    .clients_third_div a:nth-child(1){
+        margin-right: 30px;
+    }
+    .clients_third_div a:nth-child(3) {
+        margin-right: 30px;
+    }
+    .clients_third_div{
+        display: flex;
+        justify-content: end;
+    }
+
+    .clients_first_div .clients_third_div{
+        margin-right: 0;
+    }
+    .reeding_house_third{
+        min-height: 300px;
+        padding-left: 25px;
+    }
+    .reeding_house_third .description_third h5{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .reeding_house_third .description_third p{
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .description_third{
+        max-width: 150px;
+    }
+    .projects{
+        padding: 25px 20px 25px;
+    }
+    .projects h3{
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .projects p{
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 20px;
+    }
+    .d-flex.d-img{
+        display: block;
+        margin: auto;
+        max-width: 375px;
+    }
+    .link {
+        margin-top: 15px;
+    }
+    .team_second_div{
+        text-align: center;
+        max-width: none;
+    }
+    .team_first_div{
+        max-width: 405px;
+    }
+    .team_art:nth-child(2) {
+        padding-right: 0;
+    }
+    .team_art h5 {
+        padding-left: 7px;
+    }
+    .team_art p{
+        padding-left: 7px;
+    }
+    .team_art img{
+        max-width: 50px;
+    }
+    .team_first_div{
+        display: block;
+        padding: 25px 0;
+        margin: auto;
+    }
+    .team_art:nth-child(2){
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+    .team_lorem{
+        padding: 12px 0 20px 0;
+    }
+    .width{
+        margin: auto;
+    }
+    .team_art div{
+        min-width: 150px;
+    }
+    .team_art{
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .touch_first_div{
+        max-width: 375px;
+    }
+    .sect_touch .touch_second_div p{
+        font-size: 20px;
+        line-height: 25px;
+        max-width: 200px;
+    }
+    .sect_touch .touch_second_div a{
+        font-size: 11px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+    }
+    .sect_touch .touch_first_div .touch_first_p{
+        font-size: 11px;
+        line-height: 15px;
+    }
+    footer{
+        padding: 25px 0;
+    }
+    footer .foot_first_div{
+        max-width: 375px;
+        display: block;
+    }
+    footer .foot_first_div div:nth-child(2) ul li{
+        margin-left: 22px;
+    }
+    footer .foot_first_div div:nth-child(2) ul{
+        padding-top: 15px;
+    }
+    footer .foot_first_div div:nth-child(2) ul li img{
+        height: 17px;
+    }
+    footer .foot_first_div div:nth-child(2) ul li:first-of-type{
+        margin-left: 0;
+    }
 
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 376px) {
 
-}
-@media only screen and (max-width: 375px) {
+    header{
+        max-width: 360px;
+        margin: auto;
+    }
+    .headdiv{
+        padding: 14px 0;
+    }
+    header img{
+        max-width: 100px;
+    }
+    .headdiv nav ul li{
+        margin-left: 7px;
+    }
+    .headdiv nav ul li a{
+        font-size: 7px;
+    }
+    .headdiv nav ul li:nth-child(6) a{
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+    .sect_img{
+        padding: 33.5px 0 32px 0;
+    }
+    .sect_img .img_first_div p{
+        margin-bottom: 20px;
+    }
+    .img_first_div{
+        max-width: 360px;
+        margin: auto;
+    }
+
+    .Our_firm_first{
+        max-width: 360px;
+        padding: 25px 0;
+    }
+    .Our_firm_first h5{
+        font-size: 25px;
+        line-height: 24px;
+    }
+    .Our_firm_first .Our_firm_second p{
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 250px;
+    }
+    .Senior img{
+        max-width: 70px;
+        padding-right: 15px;
+    }
+    .reeding_house{
+        min-height: 300px;
+        padding-right: 25px;
+    }
+    .description {
+        max-width: 150px;
+    }
+    .reeding_house .description h5{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .reeding_house .description p{
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .sect_img .img_first_div h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .sect_art{
+        padding: 25px 0;
+    }
+    .sect_art .art_first_div h2{
+        font-size: 30px;
+        line-height: 33px;
+    }
+    .reeding_house_second{
+        min-height: 300px;
+        padding-right: 25px;
+    }
+    .reeding_house_second .description_second h5{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .reeding_house_second .description_second p {
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .description_second{
+        max-width: 150px;
+    }
+    .Senior p{
+        font-size: 11px;
+        line-height: 11px;
+    }
+    .Senior h6{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .img_second_div {
+        display: none;
+
+    }
+    .clients_first_div {
+        padding: 15px;
+    }
+    .clients .clients_first_div div:nth-child(1) {
+        max-width: 150px;
+    }
+    .clients .clients_first_div div h4{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .clients .clients_first_div div h2{
+        font-size: 25px;
+        line-height: 29px;
+        padding-bottom: 9px;
+    }
+    .clients .clients_first_div div p{
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .clients_third_div a img{
+        max-width: 80px;
+    }
+    .clients_third_div a:nth-child(1){
+        margin-right: 30px;
+    }
+    .clients_third_div a:nth-child(3) {
+        margin-right: 30px;
+    }
+    .clients_third_div{
+        display: flex;
+        justify-content: end;
+    }
+
+    .clients_first_div .clients_third_div{
+        margin-right: 0;
+    }
+    .reeding_house_third{
+        min-height: 300px;
+        padding-left: 25px;
+    }
+    .reeding_house_third .description_third h5{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .reeding_house_third .description_third p{
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .description_third{
+        max-width: 150px;
+    }
+    .projects{
+        padding: 25px 20px 25px;
+    }
+    .projects h3{
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .projects p{
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 20px;
+    }
+    .d-flex.d-img{
+        display: block;
+        margin: auto;
+        max-width: 360px;
+    }
+    .link {
+        margin-top: 15px;
+    }
+    .team_second_div{
+        text-align: center;
+        max-width: none;
+    }
+    .team_first_div{
+        max-width: 405px;
+    }
+    .team_art:nth-child(2) {
+        padding-right: 0;
+    }
+    .team_art h5 {
+        padding-left: 7px;
+    }
+    .team_art p{
+        padding-left: 7px;
+    }
+    .team_art img{
+        max-width: 50px;
+    }
+    .team_first_div{
+        display: block;
+        padding: 25px 0;
+        margin: auto;
+    }
+    .team_art:nth-child(2){
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+    .team_lorem{
+        padding: 12px 0 20px 0;
+    }
+    .width{
+        margin: auto;
+    }
+    .team_art div{
+        min-width: 150px;
+    }
+    .team_art{
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .touch_first_div{
+        max-width: 360px;
+    }
+    .sect_touch .touch_second_div p{
+        font-size: 20px;
+        line-height: 25px;
+        max-width: 200px;
+    }
+    .sect_touch .touch_second_div a{
+        font-size: 11px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+    }
+    .sect_touch .touch_first_div .touch_first_p{
+        font-size: 11px;
+        line-height: 15px;
+    }
+    footer{
+        padding: 25px 0;
+    }
+    footer .foot_first_div{
+        max-width: 360px;
+        display: block;
+    }
+    footer .foot_first_div div:nth-child(2) ul li{
+        margin-left: 22px;
+    }
+    footer .foot_first_div div:nth-child(2) ul{
+        padding-top: 15px;
+    }
+    footer .foot_first_div div:nth-child(2) ul li img{
+        height: 17px;
+    }
+    footer .foot_first_div div:nth-child(2) ul li:first-of-type{
+        margin-left: 0;
+    }
 
 }
 
