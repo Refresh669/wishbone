@@ -1,0 +1,68 @@
+@media only screen and (max-width: 768px) {
+    header{
+        max-width: 750px;
+        margin: auto;
+    }
+    .headdiv nav ul li{
+        margin-left: 20px;
+    }
+    .img_first_div{
+        max-width: 750px;
+        margin: auto;
+    }
+    .img_second_div {
+        background-size: contain;
+        height: 50%;
+        right: -50px;
+
+    }
+    .Our_firm_first {
+        max-width: 750px;
+    }
+    .clients_first_div {
+        padding: 20px;
+    }
+    .clients .clients_first_div div:nth-child(1) {
+        max-width: 330px;
+    }
+    .clients_first_div .clients_third_div{
+        margin-right: 0;
+    }
+    .projects{
+        padding: 110px 20px 108px;
+    }
+    .link {
+     margin-top: 30px;
+    }
+    .team_first_div{
+        max-width: 750px;
+    }
+    .team_art:nth-child(2) {
+        padding-right: 0;
+    }
+    .team_art h5 {
+        padding-left: 7px;
+    }
+    .team_art p{
+        padding-left: 7px;
+    }
+    .team_art img{
+        max-width: 60px;
+    }
+    .touch_first_div{
+        max-width: 750px;
+    }
+    footer .foot_first_div{
+        max-width: 750px;
+    }
+    }
+    @media only screen and (max-width: 428px) {
+
+}
+@media only screen and (max-width: 390px) {
+
+}
+@media only screen and (max-width: 375px) {
+
+}
+

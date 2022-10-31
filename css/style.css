@@ -561,6 +561,21 @@ font-style: normal;
     color: #FFFFFF;
     text-decoration: none;
 }
+.link{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #1B1A1A;
+    text-decoration: none;
+    margin-top: 93px;
+
+}
 /*section_9*/
 /*section_10*/
 .sect_touch {
