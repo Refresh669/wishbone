@@ -15,6 +15,23 @@
     justify-content: space-between;
     padding: 22px 0
 }
+.ui-widget-header{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 19px;
+    background: black;
+    color: white;
+    border: none;
+}
+/*.ui-widget-content{*/
+/*    background: #403E3B;*/
+/*    color: white;*/
+/*    border: none;*/
+/*}*/
+.ui-widget.ui-widget-content{
+    border: none;
+}
 .headdiv nav ul {
     list-style: none; display: flex;
 }
